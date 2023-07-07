@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+input {
+    text-align: center;
+    border: 1px solid rgb(78, 133, 42);
+    margin: 5px;
+    padding: 5px;
+}
+
+button,
+.main-button {
+    background-color: rgb(224, 181, 72);
+    border: 1px solid rgb(78, 133, 42);
+    margin: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border: 1px solid rgb(78, 133, 42);
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    border: 1px solid rgb(78, 133, 42);
+    margin: 10px;
+    padding: 10px;
+}

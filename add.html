@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Add</title>
+</head>
+<body>
+    <h3>Добавим информацию о планете</h3>
+    <hr>
+    <form action="vendor/create.php" method="post" name="planet" class="main-form">
+        <label for="name">Название планеты</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="diameter">Диаметр планеты</label><br>
+        <input type="text" name="diameter" id="diameter"><br>
+        <label for="temperature">Температура поверхности планеты</label><br>
+        <input type="text" name="temperature" id="temperature"><br>
+        <input class="main-button" type="reset" onclick="alert('Данные очищены')"
+        name="check_one" value="Очистить">
+        <input class="main-button" type="submit" onclick="alert('Данные отправлены')"
+        name="check_two" value="Отправить">
+        <button onclick="document.location='index.php'">Назад</button>
+    </form>
+</body>
+</html>
